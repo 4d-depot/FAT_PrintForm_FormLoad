@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="print-form-load" uuid="D9B5868C32344BB59DB02BF13E64EFD4" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<base_extra>
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

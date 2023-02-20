@@ -1,0 +1,118 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"events": [
+		"onLoad"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"LB": {
+					"type": "listbox",
+					"left": 26,
+					"top": 100,
+					"width": 384,
+					"height": 176,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.LBcollection",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"showFooters": false,
+					"resizingMode": "legacy",
+					"columns": [
+						{
+							"header": {
+								"text": "Reference",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.reference",
+							"horizontalPadding": 8
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Quantity"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2",
+								"variableCalculation": "sum",
+								"fontWeight": "bold"
+							},
+							"dataSource": "This:C1470.quantity",
+							"horizontalPadding": 8
+						},
+						{
+							"header": {
+								"name": "Header3",
+								"text": "Total"
+							},
+							"name": "Column3",
+							"footer": {
+								"name": "Footer3",
+								"variableCalculation": "sum",
+								"fontWeight": "bold"
+							},
+							"dataSource": "This:C1470.total",
+							"horizontalPadding": 8,
+							"textAlign": "right"
+						}
+					]
+				},
+				"InfoTitle": {
+					"type": "text",
+					"text": "• This listbox is tiny and can hold only 8 rows !\r• As you can see, references have been CAPITALIZED during the \"on load\" event.",
+					"top": 23,
+					"left": 26,
+					"width": 441,
+					"height": 51,
+					"fontWeight": "bold"
+				},
+				"InfoText": {
+					"type": "text",
+					"text": "Suspendisse blandit magna eget placerat consequat. Morbi dignissim sodales volutpat. Fusce sodales, justo tempus volutpat ornare, orci velit laoreet odio, porta semper augue nisl eu leo. Donec ornare vitae tortor sed egestas. Vivamus eleifend magna quam, at commodo ligula imperdiet et. Phasellus non mollis enim. In consequat arcu quis mi semper imperdiet. In nulla justo, blandit vel posuere vel, ornare in ex. Interdum et malesuada Fames ac ante ipsum primis in faucibus. Cras posuere est vitae lectus luctus, non porttitor arcu rutrum.\rInteger varius interdum elit, et faucibus eros ornare non. Nam id massa id ligula efficitur efficitur ut et metus. Mauris semper, dui nec imperdiet euismod, tellus orci viverra leo, ut tincidunt augue urna vitae erat. Curabitur odio velit, tincidunt eget laoreet eu, fermentum ut massa. Sed eget mi gravida mi blandit malesuada nec vitae dolor. In sit amet posuere risus, vitae commodo dolor. Suspendisse justo neque, interdum sit amet faucibus sit amet, pretium vitae turpis. Aenean molestie enim at vehicula tincidunt. Morbi vitae luctus tellus. In tempus, leo nec laoreet pellentesque, urna leo ullamcorper ex, eu ultricies massa nibh ut metus. Suspendisse aliquam cursus eros, aliquet pulvinar ex venenatis ac. Suspendisse eu lorem arcu. In hendrerit, mauris sollicitudin dictum interdum, risus diam luctus nunc, sit amet consectetur dolor justo ut nulla. Vivamus eleifend magna quam, at commodo ligula imperdiet et. Phasellus non mollis enim. In consequat arcu quis mi semper imperdiet. In nulla justo, blandit vel posuere vel, ornare in ex. Interdum et malesuada Fames ac ante ipsum primis in faucibus.",
+					"top": 303,
+					"left": 26,
+					"width": 423,
+					"height": 399,
+					"fontStyle": "italic",
+					"stroke": "#808080"
+				}
+			}
+		}
+	],
+	"geometryStamp": 129,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm",
+	"width": 520,
+	"height": 760
+}
