@@ -22,18 +22,6 @@
 			"title": ":xliff:CommonMenuFile",
 			"items": [
 				{
-					"title": "Print form sample",
-					"method": "PrintForm_CodeSample",
-					"shortcutAccel": true,
-					"shortcutKey": "k"
-				},
-				{
-					"title": "Form load sample",
-					"method": "FormLoad_CodeSample",
-					"shortcutAccel": true,
-					"shortcutKey": "l"
-				},
-				{
 					"title": ":xliff:CommonMenuItemQuit",
 					"shortcutAccel": true,
 					"shortcutKey": "Q",
