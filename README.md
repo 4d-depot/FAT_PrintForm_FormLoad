@@ -1,4 +1,4 @@
-# Pass parameters with PRINT FORM and FORM LOAD
+# Pass orm data parameter with PRINT FORM and FORM LOAD
 
 Pass parameters with PRINT FORM and FORM LOAD (4D v20)
 
